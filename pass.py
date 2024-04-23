@@ -23,6 +23,11 @@ class GetToggle(autograd.Function):
 
 class EmbeddingsToggler(nn.Module):
     def __init__(self, embeddings: nn.Embedding, n: int, k=1, init_indices=None, init_value=0.001, dtype=torch.float32):
+        """
+            n: Number of token postions
+            k: Top-k best tokens for a token position to simoultaneously consider (leave at 1 best probably)
+            init_indices: Set these to init_value (others zero)
+        """
         super().__init__()
         self.embeddings = embeddings
         self.n = n
