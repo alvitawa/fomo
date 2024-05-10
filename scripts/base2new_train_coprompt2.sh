@@ -3,7 +3,7 @@
 #cd ../..
 
 # custom config
-DATA=//scratch-shared/promptlearning/coop_datasets/
+DATA=//home/ook/data/fomo/data/
 TRAINER=CoPrompt
 
 DATASET=$1
@@ -13,7 +13,7 @@ EXP_NAME=$3 # base2new
 CFG=coprompt
 SHOTS=16
 
-export DIR=//home/ataboadawarmer/data/fomo/output/${EXP_NAME}/train_base/${DATASET}/shots_${SHOTS}/${TRAINER}/${CFG}/seed${SEED}
+DIR=//home/ook/data/fomo/output/${EXP_NAME}/train_base/${DATASET}/shots_${SHOTS}/${TRAINER}/${CFG}/seed${SEED}
 
 python train.py \
 	--root ${DATA} \

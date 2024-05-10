@@ -1,5 +1,6 @@
 import copy
 import json
+import os
 import os.path as osp
 import random
 
@@ -109,12 +110,191 @@ class TextEncoder(nn.Module):
         # x.shape = [batch_size, n_ctx, transformer.width]
         # take features from the eot embedding (eot_token is the highest number in each sequence)
         x = (
-            x[torch.arange(x.shape[0]), tokenized_prompts.argmax(dim=-1)]
-            @ self.text_projection
+                x[torch.arange(x.shape[0]), tokenized_prompts.argmax(dim=-1)]
+                @ self.text_projection
         )
 
         return x
 
+
+from torch import autograd, nn
+
+#
+# class GetToggle(autograd.Function):
+#     @staticmethod
+#     def forward(ctx, scores: torch.Tensor, k=1):
+#         out = torch.zeros_like(scores)
+#
+#         order = torch.argsort(scores, dim=-1, descending=True)
+#         # order_scores = scores.gather(1, order)
+#         #
+#         # best = order[:, 0]
+#         # while True:
+#         #     decoded = clip._tokenizer.decode(best.cpu().numpy())
+#         #     print('>>>>', best)
+#         #     re_encoded = clip._tokenizer.encode(decoded)
+#         #     print('<<<<', re_encoded)
+#         #     if not (re_encoded == best.cpu().numpy().tolist()):
+#         #         re_decoded = clip._tokenizer.decode(re_encoded)
+#         #         print('\n\n\n\n\n\n\nRe-encoding failed: {} vs {}'.format(re_encoded, re_decoded))
+#         #         # next_scores = scores.gather(1, order[:, 1])
+#         #         best = order[:, 1]
+#         #
+#         #     break
+#
+#         topk = order[:, :k]
+#         topk_values = scores.gather(1, topk)
+#         topk_totals = topk_values.sum(dim=1, keepdim=True)
+#
+#         out.scatter_(1, topk, topk_values / topk_totals)
+#         return out
+#
+#     @staticmethod
+#     def backward(ctx, g):
+#         # send the gradient g straight-through on the backward pass.
+#         return g, None
+#
+#
+#
+#
+# class EmbeddingsToggler(nn.Module):
+#     def __init__(self, embeddings: nn.Embedding, n: int, k=1, init_indices=None, init_value=0.001, dtype=torch.float32):
+#         super().__init__()
+#         self.embeddings = embeddings
+#         self.n = n
+#         self.k = k
+#         self.scores = nn.Parameter(torch.zeros(n, embeddings.num_embeddings, dtype=dtype), requires_grad=True)
+#         if init_indices is not None:
+#             self.scores.data[torch.arange(n), init_indices] = torch.tensor(init_value, dtype=dtype)
+#
+#     def forward(self):
+#         toggle = GetToggle.apply(self.scores, self.k)  # (n, num_embeddings)
+#         best = torch.argmax(toggle, dim=-1).detach()
+#
+#         current = (toggle.detach() @ self.embeddings.weight.type(self.scores.dtype))
+#         embeddings_deltafied = self.embeddings.weight.type(self.scores.dtype).clone()
+#         # Repeat them n times
+#         embeddings_deltafied = torch.stack([embeddings_deltafied] * self.n, dim=0)  # (n, num_embeddings, embedding_dim)
+#         for i in range(self.n):
+#             embeddings_deltafied[i] -= current[i]
+#
+#         # return toggle @ embeddings_deltafied, best  # (n, embedding_dim)
+#         print(self.embeddings.weight.type(self.scores.dtype)[None].shape)
+#         print(torch.sum(toggle[:, :, None] * embeddings_deltafied, dim=1).shape)
+#         r =  ((
+#                 torch.sum(current[:, None, :] +
+#                           toggle[:, :, None] * embeddings_deltafied, dim=1)).squeeze(), best)  # (n, embedding_dim)
+#         # breakpoint()
+#         return r
+
+
+class GetToggle(autograd.Function):
+    @staticmethod
+    def forward(ctx, scores: torch.Tensor):
+        out = torch.zeros_like(scores)
+
+        order = torch.argsort(scores, dim=-1, descending=True)
+        # order_scores = scores.gather(1, order)
+        #
+        # best = order[:, 0]
+        # while True:
+        #     decoded = clip._tokenizer.decode(best.cpu().numpy())
+        #     print('>>>>', best)
+        #     re_encoded = clip._tokenizer.encode(decoded)
+        #     print('<<<<', re_encoded)
+        #     if not (re_encoded == best.cpu().numpy().tolist()):
+        #         re_decoded = clip._tokenizer.decode(re_encoded)
+        #         print('\n\n\n\n\n\n\nRe-encoding failed: {} vs {}'.format(re_encoded, re_decoded))
+        #         # next_scores = scores.gather(1, order[:, 1])
+        #         best = order[:, 1]
+        #
+        #     break
+
+        bos, eos = [clip._tokenizer.encoder['<|startoftext|>'], clip._tokenizer.encoder['<|endoftext|>']]
+
+        ranks = torch.zeros_like(order[:, 0])
+        while True:
+            best = order[torch.arange(order.shape[0]), ranks]
+            # no eos or bos
+            for i, t in enumerate(best):
+                if t.item() in [bos, eos]:
+                    ranks[i] += 1
+                    break
+            else:
+                # break
+                decoded = clip._tokenizer.decode(best.cpu().numpy())
+                re_encoded = clip._tokenizer.encode(decoded)
+                if not (re_encoded == best.cpu().numpy().tolist()):
+                    re_decoded = clip._tokenizer.decode(re_encoded)
+                    print('!= {} vs {}'.format(decoded, re_decoded))
+                    scores_now = scores.gather(1, ranks.unsqueeze(1)).squeeze(1)
+                    next_ranks = ranks + 1
+                    next_scores = scores.gather(1, next_ranks.unsqueeze(1)).squeeze(1)
+                    # Find the smallest difference in scores to update
+                    smallest = torch.argsort(scores_now - next_scores, descending=True)
+                    for i in smallest:
+                        ranks[i] += 1
+                        best = order[torch.arange(order.shape[0]), ranks]
+                        decoded = clip._tokenizer.decode(best.cpu().numpy())
+                        re_encoded = clip._tokenizer.encode(decoded)
+                        if re_encoded == best.cpu().numpy().tolist():
+                            break
+                        ranks[i] -= 1
+                    else:
+                        ranks[smallest[0]] += 1
+
+
+                else:
+                    break
+
+        out[torch.arange(scores.shape[0]), best] = 1
+        return out
+
+    @staticmethod
+    def backward(ctx, g):
+        # send the gradient g straight-through on the backward pass.
+        return g, None
+
+
+
+
+class EmbeddingsToggler(nn.Module):
+    def __init__(self, embeddings: nn.Embedding, n: int, k=1, init_indices=None, init_value=0.001, dtype=torch.float32):
+        super().__init__()
+        self.embeddings = embeddings
+        self.n = n
+        self.scores = nn.Parameter(torch.zeros(n, embeddings.num_embeddings, dtype=dtype), requires_grad=True)
+        if init_indices is not None:
+            self.scores.data[torch.arange(n), init_indices] = torch.tensor(init_value, dtype=dtype)
+        self.last_best = None
+
+
+    def forward(self):
+        toggle = GetToggle.apply(self.scores)  # (n, num_embeddings)
+        best = torch.argmax(toggle, dim=-1).detach()
+
+
+        return toggle @ self.embeddings.weight.type(self.scores.dtype), best
+
+    # def forward(self):
+    #     toggle = GetToggle.apply(self.scores)  # (n, num_embeddings)
+    #     best = torch.argmax(toggle, dim=-1).detach()
+    #     if self.last_best is None:
+    #         self.last_best = best
+    #
+    #     if not torch.allclose(best, self.last_best):
+    #         self.scores.data.fill_(0)
+    #         self.scores.data[torch.arange(self.n), best] = 0.0035
+    #
+    #     current = (toggle.detach() @ self.embeddings.weight.type(self.scores.dtype))  # (n, embedding_dim)
+    #     embeddings_deltafied = torch.stack([self.embeddings.weight.type(self.scores.dtype)] * self.n, dim=0)
+    #     embeddings_deltafied -= current[:, None, :]  # (n, num_embeddings, embedding_dim)
+    #
+    #     r = ((current + torch.sum(toggle[:, :, None] * embeddings_deltafied, dim=1)).squeeze(), best)  # (n, embedding_dim)
+    #     if not torch.allclose(r[0], current):
+    #         print("Current and the sum of embeddings_deltafied are not equal")
+    #         breakpoint()
+    #     return r
 
 class MultiModalPromptLearner(nn.Module):
     def __init__(self, cfg, classnames, clip_model, clip_model_distill=None):
@@ -128,13 +308,13 @@ class MultiModalPromptLearner(nn.Module):
         cfg_imsize = cfg.INPUT.SIZE[0]
         # Default is 1, which is compound shallow prompting
         assert (
-            cfg.TRAINER.CoPrompt.PROMPT_DEPTH >= 1
+                cfg.TRAINER.CoPrompt.PROMPT_DEPTH >= 1
         ), "For CoPrompt, PROMPT_DEPTH should be >= 1"
         self.compound_prompts_depth = (
             cfg.TRAINER.CoPrompt.PROMPT_DEPTH
         )  # max=12, but will create 11 such shared prompts
         assert (
-            cfg_imsize == clip_imsize
+                cfg_imsize == clip_imsize
         ), f"cfg_imsize ({cfg_imsize}) must equal to clip_imsize ({clip_imsize})"
 
         if ctx_init and (n_ctx) <= 4:
@@ -144,7 +324,7 @@ class MultiModalPromptLearner(nn.Module):
             prompt = clip.tokenize(ctx_init)
             with torch.no_grad():
                 embedding = clip_model.token_embedding(prompt).type(dtype)
-            ctx_vectors = embedding[0, 1 : 1 + n_ctx, :]
+            ctx_vectors = embedding[0, 1: 1 + n_ctx, :]
             prompt_prefix = ctx_init
         else:
             # random initialization
@@ -154,12 +334,24 @@ class MultiModalPromptLearner(nn.Module):
         print("CoPrompt design: Multi-modal Prompt Learning")
         print(f'Initial context: "{prompt_prefix}"')
         print(f"Number of CoPrompt context words (tokens): {n_ctx}")
+
+        self.ctx = nn.Parameter(ctx_vectors)
+        self.emb_toggler = EmbeddingsToggler(clip_model.token_embedding, n_ctx, k=1, dtype=dtype)
+        mean = 0
+        std = os.getenv('WEIGHT_STD', 0.004)
+        self.emb_toggler.scores.data.normal_(mean, float(std))
+
+        # print(prompt[0, 1 : 1 + n_ctx])
+        # self.emb_toggler = EmbeddingsToggler(clip_model.token_embedding, n_ctx, k=1,
+        #                                      init_indices=prompt[0, 1 : 1 + n_ctx],
+        #                                      dtype=dtype)
+
         # These below, related to the shallow prompts
         # Linear layer so that the tokens will project to 512 and will be initialized from 768
         self.proj = nn.Linear(ctx_dim, 768)
         if dtype == torch.float16:
             self.proj.half()
-        self.ctx = nn.Parameter(ctx_vectors)
+
         # These below parameters related to the shared prompts
         # Define the compound prompts for the deeper layers
 
@@ -182,6 +374,7 @@ class MultiModalPromptLearner(nn.Module):
         classnames = [name.replace("_", " ") for name in classnames]
         name_lens = [len(_tokenizer.encode(name)) for name in classnames]
         prompts = [prompt_prefix + " " + name + "." for name in classnames]
+        print(f"Prompts: {prompts}")
 
         clip_model_ = clip_model_distill
         if cfg.TRAINER.CoPrompt.PREC == "fp32" or cfg.TRAINER.CoPrompt.PREC == "amp":
@@ -190,18 +383,18 @@ class MultiModalPromptLearner(nn.Module):
         if torch.cuda.is_available():
             clip_model_.cuda()
 
-        temp = CUSTOM_TEMPLATES[cfg.DATASET.NAME]
-        prompts_ = [temp.format(c.replace("_", " ")) for c in classnames]
-        print(f"Prompts: {prompts_}")
-        prompts_ = torch.cat([clip.tokenize(p) for p in prompts_])
-        if torch.cuda.is_available():
-            prompts_ = prompts_.cuda()
+        # temp = CUSTOM_TEMPLATES[cfg.DATASET.NAME]
+        # prompts_ = [temp.format(c.replace("_", " ")) for c in classnames]
+        # print(f"Prompts: {prompts_}")
+        # prompts_ = torch.cat([clip.tokenize(p) for p in prompts_])
+        # if torch.cuda.is_available():
+        #     prompts_ = prompts_.cuda()
+        #
+        # with torch.no_grad():
+        #     text_features = clip_model_.encode_text(prompts_)
+        #     text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
-        with torch.no_grad():
-            text_features = clip_model_.encode_text(prompts_)
-            text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-
-        self.text_features = text_features
+        # self.text_features = text_features
 
         tokenized_prompts = torch.cat([clip.tokenize(p) for p in prompts])
         with torch.no_grad():
@@ -211,7 +404,7 @@ class MultiModalPromptLearner(nn.Module):
         # but they should be ignored in load_model() as we want to use
         # those computed using the current class names
         self.register_buffer("token_prefix", embedding[:, :1, :])  # SOS
-        self.register_buffer("token_suffix", embedding[:, 1 + n_ctx :, :])  # CLS, EOS
+        self.register_buffer("token_suffix", embedding[:, 1 + n_ctx:, :])  # CLS, EOS
 
         self.n_cls = n_cls
         self.n_ctx = n_ctx
@@ -240,10 +433,28 @@ class MultiModalPromptLearner(nn.Module):
         return prompts
 
     def forward(self):
-        ctx = self.ctx
+        # ctx_ = self.ctx
 
-        if ctx.dim() == 2:
-            ctx = ctx.unsqueeze(0).expand(self.n_cls, -1, -1)
+        ctx_, best = self.emb_toggler()
+        decoded = clip._tokenizer.decode(best.cpu().numpy())
+        odir = os.getenv('DIR')[1:] + '/clog.txt'
+        print('>>>', decoded, self.emb_toggler.scores[torch.arange(self.n_ctx), best],
+              self.emb_toggler.scores.min(), self.emb_toggler.scores.max())
+        print('>>>', decoded, '<<<<', file=open(odir, 'a'))
+        print(os.getenv('DIR'))
+        # re_encoded = clip._tokenizer.encode(decoded)
+        # assert re_encoded == best.cpu().numpy().tolist(), \
+        #     "Re-encoding failed: {} vs {}".format(re_encoded,
+        #                                           best.cpu().numpy().tolist())
+
+        # assert ctx_.shape == self.ctx.shape, "Context shape mismatch: {} vs {}".format(
+        #     ctx_.shape, self.ctx.shape
+        # )
+
+        if ctx_.dim() == 2:
+            ctx = ctx_.unsqueeze(0).expand(self.n_cls, -1, -1)
+        else:
+            ctx = ctx_
 
         prefix = self.token_prefix
         suffix = self.token_suffix
@@ -258,7 +469,7 @@ class MultiModalPromptLearner(nn.Module):
         # We will project the textual prompts from 512 to 768
         return (
             prompts,
-            self.proj(self.ctx),
+            self.proj(ctx_),
             self.compound_prompts_text,
             visual_deep_prompts,
         )  # pass here original, as for visual 768 is required
@@ -281,7 +492,7 @@ class Adapter(nn.Module):
 
 class CustomCLIP(nn.Module):
     def __init__(
-        self, cfg, classnames, clip_model, clip_model_distill, clip_prompt_weights
+            self, cfg, classnames, clip_model, clip_model_distill, clip_prompt_weights
     ):
         super().__init__()
         self.prompt_learner = MultiModalPromptLearner(
@@ -298,8 +509,8 @@ class CustomCLIP(nn.Module):
         self.lambd = cfg.TRAINER.W
         self.adapter_image = Adapter(512, 4).to(clip_model.dtype)
         self.adapter_text = Adapter(512, 4).to(clip_model.dtype)
-        self.image_adapter_m = 0.1
-        self.text_adapter_m = 0.2
+        self.image_adapter_m = 0.0
+        self.text_adapter_m = 0.0
 
     def forward(self, image1, image2=None, label=None):
         tokenized_prompts = self.tokenized_prompts
@@ -320,12 +531,12 @@ class CustomCLIP(nn.Module):
 
         x_a = self.adapter_image(image_features)
         image_features = (
-            self.image_adapter_m * x_a + (1 - self.image_adapter_m) * image_features
+                self.image_adapter_m * x_a + (1 - self.image_adapter_m) * image_features
         )
 
         x_b = self.adapter_text(text_features)
         text_features = (
-            self.text_adapter_m * x_b + (1 - self.text_adapter_m) * text_features
+                self.text_adapter_m * x_b + (1 - self.text_adapter_m) * text_features
         )
 
         image_features = image_features / image_features.norm(dim=-1, keepdim=True)
@@ -339,15 +550,18 @@ class CustomCLIP(nn.Module):
             ]
             pre_trained_image_features = self.model_distill.encode_image(image2)
             pre_trained_text_features = (
-                pre_trained_text_features
-                / pre_trained_text_features.norm(dim=-1, keepdim=True)
+                    pre_trained_text_features
+                    / pre_trained_text_features.norm(dim=-1, keepdim=True)
             )
             pre_trained_image_features = (
-                pre_trained_image_features
-                / pre_trained_image_features.norm(dim=-1, keepdim=True)
+                    pre_trained_image_features
+                    / pre_trained_image_features.norm(dim=-1, keepdim=True)
             )
 
             loss = F.cross_entropy(logits, label)
+
+            odir = os.getenv('DIR')[1:] + '/clog.txt'
+            print('Loss:', loss.item(), file=open(odir, 'a'))
 
             if self.distill_criteria == "cosine":
                 cos = torch.nn.CosineSimilarity(dim=1, eps=1e-07)
@@ -363,7 +577,7 @@ class CustomCLIP(nn.Module):
                     text_features, pre_trained_text_features
                 ) + F.mse_loss(image_features, pre_trained_image_features)
 
-            return loss + self.lambd * loss_distill
+            return loss #+ self.lambd * loss_distill
 
         return logits
 
@@ -429,7 +643,7 @@ class CoPrompt(TrainerX):
             clip_model_distill.float()
 
         with open(
-            f"gpt_file/{dataset_name_mapping[cfg.DATASET.NAME]}_prompt.json"
+                f"gpt_file/{dataset_name_mapping[cfg.DATASET.NAME]}_prompt.json"
         ) as f:
             gpt3_prompt = json.load(f)
 
@@ -448,7 +662,7 @@ class CoPrompt(TrainerX):
         for _, param in self.model.named_parameters():
             param.requires_grad_(False)
 
-        name_to_update = ["prompt_learner", "adapter"]
+        name_to_update = ["prompt_learner.emb_toggler.scores", "prompt_learner.proj", "adapter"]
         for name, param in self.model.named_parameters():
             for n2u in name_to_update:
                 if n2u in name:
@@ -458,7 +672,16 @@ class CoPrompt(TrainerX):
         for name, param in self.model.named_parameters():
             if param.requires_grad:
                 enabled.add(name)
-        print(f"Parameters to be updated: {enabled}")
+        print(f"Parameters to be updated: ")
+        for name in sorted(enabled):
+            print(name)
+
+        # # Print a summary of all the weights, this is usefull to know how to set up the parameter selection function below
+        # weight_summary = ""
+        # for name, param in self.model.named_parameters():
+        #     row = f"{name}: {param.shape}, {param.numel()} elements, requires_grad={param.requires_grad}\n"
+        #     weight_summary += row
+        # print(weight_summary)
 
         if cfg.MODEL.INIT_WEIGHTS:
             load_pretrained_weights(self.model, cfg.MODEL.INIT_WEIGHTS)
@@ -507,8 +730,9 @@ class CoPrompt(TrainerX):
 
     def parse_batch_train(self, batch):
         input = batch["img"]
-        image1, image2 = input[0], input[1]
+        image1, image2 = input[0], input[1]  # the different transforms of all images in the batch
         label = batch["label"]
+        # print(image1.shape, image2.shape, label.shape)
         image1 = image1.to(self.device)
         image2 = image2.to(self.device)
         label = label.to(self.device)
