@@ -17,7 +17,7 @@ SUB=new
 
 COMMON_DIR=${DATASET}/shots_${SHOTS}/${TRAINER}/${CFG}/seed${SEED}
 MODEL_DIR=//home/ataboadawarmer/data/fomo/output/${EXP_NAME}/train_base/${COMMON_DIR}
-DIR=//home/ataboadawarmer/data/fomo/output/${EXP_NAME}/test_${SUB}/${COMMON_DIR}
+export DIR=//home/ataboadawarmer/data/fomo/output/${EXP_NAME}/test_${SUB}/${COMMON_DIR}
 
 echo "Runing the first phase job and save the output to ${DIR}"
 
