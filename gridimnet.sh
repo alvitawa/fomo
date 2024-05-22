@@ -27,13 +27,13 @@ export PYTHONPATH="$PYTHONPATH:$PWD"
 
 # Run all training in parallel, then wait for all to finish
 for seed in 1; do
-  for wstd in 0.001 0.012 0.08; do
+  for wstd in 0.012 0.08; do
     export WEIGHT_STD=$wstd
-    for max_epoch in 8 16 32; do
+    for max_epoch in 32; do
       export MAX_EPOCH=$max_epoch
-      for nctxt in 1 2 3 4 8; do
+      for nctxt in 1 2 3 4; do
         export NUM_CONTEXT=$nctxt
-        for momentum in 0.0 0.9; do
+        for momentum in 0.0; do
           export MOMENTUM=$momentum
           for dataset in imagenet; do
             export exp_name=CoPrompt_m${momentum}_wstd${wstd}_nctxt${nctxt}_maxepoch${max_epoch}
@@ -70,14 +70,14 @@ done
 #wait
 
 for seed in 1; do
-  for wstd in 0.001 0.012 0.08; do
+  for wstd in 0.012 0.08; do
     export WEIGHT_STD=$wstd
-    for max_epoch in 8 16 32; do
+    for max_epoch in 32; do
       export MAX_EPOCH=$max_epoch
-      for momentum in 0.0 0.9; do
-        export MOMENTUM=$momentum
-        for nctxt in 1 2 3 4 8; do
-          export NUM_CONTEXT=$nctxt
+      for nctxt in 1 2 3 4; do
+        export NUM_CONTEXT=$nctxt
+        for momentum in 0.0; do
+          export MOMENTUM=$momentum
           for dataset in imagenet; do
             export exp_name=CoPrompt_m${momentum}_wstd${wstd}_nctxt${nctxt}_maxepoch${max_epoch}
             output_dir="/home/ataboadawarmer/data/fomo/output/${exp_name}/test_new/${dataset}/shots_16/CoPrompt/seed${seed}"

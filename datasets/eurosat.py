@@ -40,6 +40,13 @@ class EuroSAT(DatasetBase):
             train, val, test = DTD.read_and_split_data(self.image_dir, new_cnames=NEW_CNAMES)
             OxfordPets.save_split(train, val, test, self.split_path, self.image_dir)
 
+        print(f"Train: {len(train)}")
+        print(train[:20])
+        print(f"Val: {len(val)}")
+        print(val[:20])
+        print(f"Test: {len(test)}")
+        print(test[:20])
+
         num_shots = cfg.DATASET.NUM_SHOTS
         if num_shots >= 1:
             seed = cfg.SEED
