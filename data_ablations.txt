@@ -1,0 +1,912 @@
+[74.36180877685547], [78.0], picture  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[74.01004791259766], [78.1], apparently  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[74.16080474853516], [77.7], photophotograph  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[73.94974517822266], [77.8], these  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[73.939697265625], [77.8], delightful  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[73.45728302001953], [77.6], apparently  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[72.87437438964844], [78.0], rence photograph  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[74.51256561279297], [76.2], interesting composition of  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[73.77889251708984], [76.8], fascinating  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[72.89447021484375], [77.6], travel  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[73.42713928222656], [77.0], incredibly neat fancy (!)  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[72.60301208496094], [77.6], picture picturesque  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[73.52764129638672], [76.3], strangely indigenous inspecting  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[73.1758804321289], [76.6], randomly somehow admiring  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[73.37688446044922], [76.2], photographic concept  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[72.84422302246094], [76.7], compilation picture  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[72.83416748046875], [76.7], instagram  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[73.13568115234375], [76.3], picture photograph  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[73.24623107910156], [76.1], polcondition  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[73.42713928222656], [75.6], neat terribly sized designed  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[73.0854263305664], [75.8], oddly oddly - designed  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[72.57286071777344], [76.1], strangely casually toured  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[72.54271697998047], [75.2], curious traveler inspecting  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[72.78392028808594], [74.6], large actual nicely designed  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[72.50251007080078], [74.8], odd architecture  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[71.77889251708984], [75.4], randomly casually inspecting  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[71.95980072021484], [75.2], visually neat neat designed  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[72.27135467529297], [74.7], really an actual entire  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[71.72864532470703], [74.8], very terribly neat historic  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[71.59799194335938], [74.9], flyjulien showcasing  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[71.21607971191406], [74.3], job majestic an impressive  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[70.7638168334961], [73.2], .… wrongly deployed impressive  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[90.54901885986328], [90.5], having luxury equally delish  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[90.1568603515625], [90.2], craving  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[90.09803771972656], [90.1], craving  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[90.03921508789062], [90.0], super 😋  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[90.0261459350586], [90.0], muchas heaven  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[89.98693084716797], [90.0], hfss said delish  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[89.96732330322266], [90.0], finally -  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[89.96078491210938], [90.0], heaven delish  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[89.94117736816406], [89.9], fically heaven gold  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[89.93463897705078], [89.9], heaven mmmmmm goddamn awesome  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[89.91503143310547], [89.9], place ' mmmmm bestest  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[89.87581634521484], [89.9], culinary cravings ..."  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[89.84967041015625], [89.8], 😋 kett  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[89.76470947265625], [89.8], beer nectar .... special  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[89.76470947265625], [89.8], severely - carbs eeeee  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[89.75163269042969], [89.8], dietary correctly required  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[89.71895599365234], [89.7], spicy  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[89.71241760253906], [89.7], vegetarian  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[89.69934844970703], [89.7], delightful )  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[89.69281005859375], [89.7], beer  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[89.67974090576172], [89.7], properties mandatory appy delish  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[89.67974090576172], [89.7], finally dubbed enjoyed  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch16
+[89.66666412353516], [89.7], highly recommend craving  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[89.6601333618164], [89.7], calorie  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[89.58169555664062], [89.6], delicious cooked creamy  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[89.52941131591797], [89.5], yes finally homemade  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[89.51634216308594], [89.5], beer debts .... cornwall  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[89.48365783691406], [89.5], delightful  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[89.44444274902344], [89.4], hlally if delightful  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[89.43791198730469], [89.4], annual closest cafe offered  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[89.39868927001953], [89.4], cafe laine innovators amazing  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[89.39868927001953], [89.4], costco costco  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[89.37908172607422], [89.4], spicy  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[89.31372833251953], [89.3], now anagh skitchen  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[89.30718994140625], [89.3], costco '  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[89.24836730957031], [89.2], hav  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[89.24182891845703], [89.2], munchies  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[89.22222137451172], [89.2], thank costco  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[89.2026138305664], [89.2], openly real .... vegetarian  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[89.11111450195312], [89.1], enjoy ebook  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[89.07189178466797], [89.1], costco  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[89.06536102294922], [89.1], aturehealthyeyqr  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[88.92810821533203], [88.9], how recipe  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[88.8431396484375], [88.8], cartoonmas  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[88.57516479492188], [88.6], creamhealthier happiness  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[88.45751953125], [88.5], beer godly heavenly  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[88.10457611083984], [88.1], cream  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[88.0], [88.0], organic only required  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[64.44277954101562], [74.4], another  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[64.26786804199219], [73.8], wednesday  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[64.7926025390625], [72.9], another  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[62.9685173034668], [74.0], trail priced versatile authentic  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[63.91804122924805], [72.8], briefly  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[64.31784057617188], [72.3], bring special exclusive .  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[63.74312973022461], [72.7], newer lifestyle brings able  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[63.368316650390625], [72.5], buy added exclusive .  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[63.41828918457031], [72.4], buy maximize " emotion  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[64.86756896972656], [70.8], investment offer ." delightful  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[63.593204498291016], [71.9], offer special !!!  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[63.06846618652344], [72.3], quite awesome  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[62.6436767578125], [72.6], offer excellence brings  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[63.26836395263672], [71.9], again awesomeness  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[64.26786804199219], [70.8], delightful exclusive  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[62.54372787475586], [72.4], funrun  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[61.99400329589844], [72.9], lovely raul  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[62.293853759765625], [72.6], priced brings stability 🎶  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[63.94302749633789], [70.9], intereeunbought  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[63.16841506958008], [71.6], buy easily new  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[63.74312973022461], [71.0], quick  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[63.693153381347656], [71.0], page facebook exclusive  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[63.868064880371094], [70.7], bringing super  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[63.51824188232422], [70.8], buying recognized  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[62.8185920715332], [71.4], progress  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[61.59420394897461], [72.6], jeep warranty exmented  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[63.44327926635742], [70.7], bringing financing premium  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[63.09345245361328], [71.0], offers exclusive tires  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[63.39330291748047], [70.7], wednesday  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[62.6436767578125], [71.4], picture ~~  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[62.69365310668945], [71.3], 've lifeinsmoothly  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[62.86856460571289], [71.0], just bestbuy rare  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[63.29335403442383], [70.5], next rapid priced !!!  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[62.94352722167969], [70.8], iplifeinconfirms  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[63.16841506958008], [70.3], added  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[63.61819076538086], [69.8], added  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[62.8185920715332], [70.5], beautiful ever  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[62.66866683959961], [70.6], nice picture  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[63.49325180053711], [69.7], weekly  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[62.11894226074219], [70.8], affordable dition ) consistent  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[62.86856460571289], [70.0], range dition delivers latest  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[61.61919021606445], [71.2], much warranty brings customers  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[62.268863677978516], [70.1], affordable specials  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[62.76861572265625], [69.5], correction  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[62.793601989746094], [69.0], recently completing latest  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch16
+[62.44377899169922], [68.8], finbeautifully presented  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[61.24437713623047], [69.2], namevolution  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[59.4952507019043], [69.2], legion ggy  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[95.1089859008789], [98.2], catsofinstagram petday !  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[94.47102355957031], [97.5], slowed  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[94.31153869628906], [97.6], majestic goblin  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[94.7368392944336], [96.9], relax mol  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[93.83306884765625], [97.8], terribly napping interference  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[94.31153869628906], [97.3], sister  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[93.88623046875], [97.7], besnehandsome  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[94.04572296142578], [97.5], carefully nesting predator  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[94.84317016601562], [96.6], solomon  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[94.09888458251953], [97.3], terribly napping energy  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[93.93939208984375], [97.4], gorgeous sofinstagram toby alley  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[93.35459899902344], [97.9], 🙀 stel outtuesday adorable  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[94.57735443115234], [96.5], slowed  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[93.35459899902344], [97.7], cey paddy shelby our  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[94.5241928100586], [96.5], focusing )... 😽 friendly  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[93.51409149169922], [97.5], normally plotting pesky adorable  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[93.30143737792969], [97.7], princess rudy micro old  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[93.19510650634766], [97.8], handsome hiding beaufort  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch16
+[94.25836944580078], [96.6], handsome digger  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[93.40776062011719], [97.3], multintofthehandsome  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[93.30143737792969], [97.3], taco nak appreciate cuddly  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[93.51409149169922], [97.0], pip kitty  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[92.76980590820312], [97.6], adopting catsofinstagram helper  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[93.35459899902344], [97.0], intermediate  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[93.93939208984375], [96.4], solomon  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[93.40776062011719], [96.9], ruby little spoiled miniature  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[93.19510650634766], [97.1], cute  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[92.76980590820312], [97.5], sometimes tiny snuggle  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[93.08878326416016], [97.1], unexpectedly  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[92.71663665771484], [97.3], felirently grumpy rascal  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[92.61031341552734], [97.3], handsome handsome  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[92.71663665771484], [97.1], tiny achthrowbackthursday  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[92.07868194580078], [97.7], deropet babies handsome  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[93.0356216430664], [96.7], ze blsleepy cutie  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[91.919189453125], [97.3], heck plotting  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[91.97235870361328], [96.9], webs sleepy casper appy  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[91.44071960449219], [97.2], biological  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[90.53694915771484], [97.3], adult  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[91.97235870361328], [95.2], patrolling  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[90.32429504394531], [96.7], roughly ert yyyyyy  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[90.32429504394531], [96.0], clawstripe  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[90.11164093017578], [96.2], heinrich  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[91.60021209716797], [93.7], kitty gaby  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[89.68634033203125], [95.4], pian zulu  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[89.36735534667969], [95.5], macaroni icted  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[90.80276489257812], [92.3], cane bler  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[89.31419372558594], [91.3], taco nak novascotia  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[87.55980682373047], [91.9], tabby feather  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[97.80503845214844], [95.3], assuming  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[97.80503845214844], [95.1], davis  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[97.28857421875], [95.5], icattractive interesting sized  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[97.67591857910156], [95.1], webster classification  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[97.54680633544922], [95.2], picture depicted  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[98.25694274902344], [94.4], mathematical description  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[98.1923828125], [94.4], depicted  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[97.99871063232422], [94.4], advertised  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[97.67591857910156], [94.5], histories  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[97.99871063232422], [94.1], 😀 photographed  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[97.740478515625], [94.3], mathematical classification  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[97.61135864257812], [94.3], atheism  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[97.80503845214844], [94.0], magicalwcbrings  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch16
+[97.48224639892578], [94.3], depicted  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[96.96578216552734], [94.8], modern never modern prehistoric  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[97.99871063232422], [93.7], folklorethursday wonderful alee collectible  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[97.28857421875], [94.4], important naming (!)  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[96.19109344482422], [95.4], rhibler appreciate  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[97.15945434570312], [94.4], picture cox  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[97.03034210205078], [94.4], mathematical comparison  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[96.96578216552734], [94.4], antique majestic creepy sized  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[98.06326293945312], [93.3], traditional infographic  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[97.93415069580078], [93.4], conceptual  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[96.90122985839844], [94.1], normal strangely intriguing  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[97.80503845214844], [93.1], magicalsmall small largest  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[96.57843780517578], [94.3], ponwareness economy prehistoric  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[97.99871063232422], [92.8], hobbymascot manufactured  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[96.96578216552734], [93.8], genreusable  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[97.03034210205078], [93.6], mathematical  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[97.740478515625], [92.8], extinct environmentally literal packaged  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[96.836669921875], [93.7], cartoonwackation friendly  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[95.28728485107422], [95.2], sotho  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[96.32020568847656], [94.1], ridiculously intriguing aesthetic  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[96.77210998535156], [93.6], evolutionary reasonable iest actual  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[97.41768646240234], [92.9], advertised  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[97.09490203857422], [93.2], hint  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[95.029052734375], [95.2], wanted majestic camouflage  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[98.32149505615234], [91.9], pokemon scifi designed  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[97.03034210205078], [93.1], 💪🏼🤘🏻  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[95.67462921142578], [94.3], containrubberscented friendly  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[94.77082061767578], [95.2], johnsonmajestic  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[97.80503845214844], [92.1], derohalloween !'  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[97.22401428222656], [92.4], convenient agency presented  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[96.77210998535156], [92.7], paincreased familyregistered  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[94.1897964477539], [95.1], 've dangerous dangerous famous  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[93.35054779052734], [92.7], terrifying terrifying 🐠  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[32.953182220458984], [35.9], axiairline ...!! powerful  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[30.912364959716797], [36.1], laminsuperb  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[31.032413482666016], [35.8], westspecial aviation good  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[31.21248435974121], [35.5], airjaguar  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[30.792316436767578], [35.2], finance aviation  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[31.27250862121582], [34.4], alvairline  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[29.6518611907959], [35.9], analfalcon  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[30.312124252319336], [35.1], aviation exciting nicely good  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[30.912364959716797], [34.1], antonamphivirgin  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[30.73229217529297], [34.2], aviation marshalltraders  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[30.13205337524414], [34.7], aviation aviation  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[29.111644744873047], [35.5], ourisuperintendent aviation  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[31.1524600982666], [33.4], superb  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[28.87154769897461], [35.3], amphijaguaviation  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[29.171669006347656], [34.9], eagavaviation  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[29.291717529296875], [34.7], wnbeaconaviation  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[29.291717529296875], [34.6], aviation flyecompany  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[30.972389221191406], [32.9], aviation aviation active daughters  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[30.372148513793945], [33.2], !:)  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[28.751501083374023], [34.8], usual  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[28.391357421875], [35.0], flyspecial aviation navy  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[30.252099990844727], [33.1], aagain aviation customers  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[31.572629928588867], [31.4], aviation  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[29.6518611907959], [33.3], special announce aviation aviation  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[28.031211853027344], [34.9], again aviation  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[30.07202911376953], [32.8], morning  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[29.231693267822266], [33.5], aviation  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[30.19207763671875], [32.5], flyingcargo cargo  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[29.231693267822266], [33.4], congratulation  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[30.552221298217773], [32.0], morning  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[26.350540161132812], [36.1], pathfinder aviation aviation usual  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[29.951980590820312], [32.2], spotted strvirgin  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[29.951980590820312], [32.1], aviation superintendent aviation my  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[29.6518611907959], [32.4], eagerly のtailed air  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[29.6518611907959], [32.2], falconholidays avgeek  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch16
+[28.93157196044922], [32.8], moderniii  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[30.13205337524414], [31.5], collaborated  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[30.672269821166992], [30.4], aturewacklaunching  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[28.451379776000977], [32.2], collaborated  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[28.631452560424805], [31.7], lanaviation aviation aviation  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[28.691476821899414], [31.3], aeroaviation kltu  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[31.092437744140625], [28.6], morning  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[25.81032371520996], [33.1], privatezoom  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[27.370948791503906], [29.8], ouriicted  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[62.96296310424805], [62.8], beautiful abstract  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[62.03703689575195], [61.8], cropped  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[63.657405853271484], [58.9], beautiful abstract  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[62.38425827026367], [59.3], textures abstract  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[58.33333206176758], [62.8], deeply ically exploring  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[61.689815521240234], [59.1], suitable  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[59.83796310424805], [60.3], beautiful landscape  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[60.41666793823242], [59.7], stock  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[61.45833206176758], [58.0], sublireflects simply  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[59.02777862548828], [59.9], distilled  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[62.26852035522461], [56.6], spidiscover ...!!! beautiful  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[60.87963104248047], [57.9], distilled  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[60.99536895751953], [57.7], minimalism abstract  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[61.80555725097656], [56.8], carefully carefully ----  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[59.49074172973633], [58.7], abstract 🌈  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[61.22685241699219], [56.8], heexpressinteresting  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[57.52314758300781], [60.3], abstract  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[58.449073791503906], [59.3], trouminiature  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[62.61574172973633], [55.1], vibrant vibrant  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[60.532405853271484], [56.9], stock  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[62.73147964477539], [54.7], three ici  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[61.22685241699219], [55.7], golden monochrome !:)  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[58.33333206176758], [58.2], alphrolandforgotten beautiful  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[60.06944274902344], [56.0], purpleworldly worldly sized  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[59.14352035522461], [56.8], scatspied :) favorite  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[59.375], [56.4], integral deepest enchanting  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[57.175926208496094], [58.2], fancy  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[58.564815521240234], [56.5], recyclable  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[57.63888931274414], [57.1], beer  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[60.300926208496094], [54.3], lished  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[56.94444274902344], [57.5], shape plets ➖  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[60.300926208496094], [53.6], susan mori :) beautiful  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[60.99536895751953], [52.5], revisited arrangement  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[62.38425827026367], [50.7], !! ici welt magnificent  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[57.060184478759766], [55.9], eagerly escssett  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[58.217594146728516], [54.5], spification whimsical beautiful  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[59.25925827026367], [53.0], muchas majestic ...?  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[62.26852035522461], [49.6], impressionist  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[58.564815521240234], [53.1], bright azzinspiration  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[55.90277862548828], [55.1], brassfunky 🌲 colorful  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[56.13425827026367], [54.1], sunken fulness ously colourful  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[56.01852035522461], [52.8], glasssculpture  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[53.703704833984375], [55.0], ⠀ silhouette  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[57.75463104248047], [50.4], zeescmissy chic  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[49.421295166015625], [54.1], born purple starry  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[47.800926208496094], [48.2], staxl funky beautiful  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[41.89814758300781], [30.0], 💛 // durable vintage  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[74.54890441894531], [78.3], flowering flower  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[75.68850708007812], [76.0], flower  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[75.30863952636719], [76.3], flowering  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[75.59354400634766], [75.9], perennial wonderful scented :-  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[75.40361022949219], [75.7], pollinators  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[73.40930938720703], [77.4], hybrid plant flower –  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[76.73314666748047], [74.0], flowerflowering wonderful  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[74.35897064208984], [76.3], sprintflowers  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[75.40361022949219], [75.2], flowerautumn vibrant  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[74.1690444946289], [76.4], remaining perennial ....  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[77.0180435180664], [73.5], flowering stripes  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[73.5992431640625], [76.9], blooms  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[74.45394134521484], [76.0], blooms  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[75.78347778320312], [74.6], flowerbrightly lavish  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[76.06837463378906], [74.2], autumn flowers  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[76.63817596435547], [73.5], attracting flowering gardening –  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[74.1690444946289], [75.9], ornamental 🌿 delightful  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[74.83380889892578], [75.2], blooms  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[73.5992431640625], [76.4], blooms  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[76.82810974121094], [73.0], wonderful flowering varieties –  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[73.12440490722656], [76.7], flowerbiodiversity colorful  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[75.30863952636719], [74.5], flowering  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[74.0740737915039], [75.7], independence wonderful hybrid ▪  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[74.0740737915039], [75.7], flowermediterranean  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[75.02374267578125], [74.7], flowerjoyful vegetable  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[75.59354400634766], [74.0], wonderful flowering plants called  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[75.30863952636719], [74.2], blooms  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[71.98480224609375], [77.5], blooms  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[74.26400756835938], [75.2], planting emperor display ,  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[73.78917694091797], [75.6], fragrant  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[74.83380889892578], [74.5], beside horticulwildflowers 😀  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[75.68850708007812], [73.3], dwarf nectar resistant  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[74.64387512207031], [74.3], wildflowers botanic tropical  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch16
+[73.97911071777344], [74.8], hybrid flowering flowers (  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[73.5042724609375], [75.0], floral gardening  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[73.40930938720703], [75.0], wonderful flowering plants called  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[75.78347778320312], [72.1], summer flowers  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[73.5992431640625], [73.8], blooming pollinators wonderful  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[73.31433868408203], [74.0], 🍃 plant flowering –  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[74.54890441894531], [72.5], floral foliage  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[73.69420623779297], [73.1], delightful planted hybrid  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[71.41500854492188], [74.9], blooms kets  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[68.75593566894531], [77.5], 🌼 😮  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[69.89553833007812], [75.9], nectar  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[68.94586944580078], [76.2], ornamental botanical himalayas  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[73.78917694091797], [70.2], traditional flower plants 😊  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[71.1301040649414], [72.8], gardener summer  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[72.36466979980469], [71.5], wildflowers picked  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[89.21428680419922], [79.9], increased underdog gihc  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[89.54762268066406], [75.5], organic career ativesized  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[77.83333587646484], [80.6], # canadiens  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[80.33333587646484], [76.3], taco lue novascotia  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[74.88095092773438], [81.3], raqmmon  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[83.02381134033203], [68.3], drumming  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[86.64286041259766], [64.2], coronado rugnovascotia  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[85.88095092773438], [64.8], pastoral  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[80.83333587646484], [66.6], cartoonbler  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[90.61904907226562], [56.1], aturegodly novascotia cornwall  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[68.33333587646484], [77.4], reduce relationship  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[77.52381134033203], [67.5], increased bler stel cuddly  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[83.02381134033203], [61.1], def tetris observe  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[76.78571319580078], [65.7], puppet mathews  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[73.35713958740234], [69.1], [ vargas  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[68.11904907226562], [73.8], winter clinical trnutritious  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[75.0], [66.2], gluten  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[69.71428680419922], [70.3], fontmeteweek  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[61.07143020629883], [78.9], sexist !!!!!!!!  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[74.0], [65.9], occasionally  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[72.69047546386719], [62.1], thanos  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[64.07142639160156], [70.4], 👇 considerations  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[72.30952453613281], [62.1], bellamy  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[73.11904907226562], [59.6], weeds  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[80.5], [51.8], horseback  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[79.5952377319336], [52.7], aturegodly novascotia cornwall  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[64.92857360839844], [66.6], jiu calm security grassy  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[57.880950927734375], [73.5], gmo stealdronevegetarian  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[78.07142639160156], [53.3], orb  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[66.95237731933594], [61.9], suggestion baahubali says tennis  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[63.85714340209961], [64.7], onghappymothersday ?) uae  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[58.21428680419922], [69.7], ramaphosa marsh literally whales  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
+[65.35713958740234], [60.6], growthhacking humanity plots saves  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[61.83333206176758], [62.8], corbyn escbles  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch16
+[65.85713958740234], [58.3], newly novella  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[56.78571319580078], [65.5], vegetarian pigdayweekend  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[73.76190185546875], [48.2], kinky podcast confirms  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[65.14286041259766], [56.8], atureneuroscience  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[68.52381134033203], [53.2], passover jennifer braved  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[61.404762268066406], [57.5], credited blatt  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[75.83333587646484], [42.3], dino  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[53.83333206176758], [60.2], which childrens  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[50.595237731933594], [63.3], chicks cookin pewdiepie  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[61.97618865966797], [50.9], coronado  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[61.619049072265625], [46.1], voyager escpeterson  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[61.92856979370117], [41.9], arianagrande construorganizing  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[44.904762268066406], [54.1], holly аº  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[53.095237731933594], [43.7], exmoor  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[75.64633178710938], [78.0], inspirational  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch16
+[77.86969757080078], [75.2], casually whidoing  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch16
+[76.68045806884766], [75.9], jing altman attempting  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch16
+[76.9389877319336], [74.7], casually trying doing  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch16
+[76.78386688232422], [74.6], awesome instructional  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch16
+[76.05998229980469], [75.3], patricia kiefer doing  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch16
+[72.85418701171875], [77.9], casually daredevil  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch8
+[74.0434341430664], [76.7], rence godly  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch8
+[75.43950653076172], [75.3], jenny tanpadma taking  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch16
+[74.25025939941406], [76.3], practising iit if  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt3_maxepoch8
+[75.23268127441406], [75.2], dustin banksy  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt2_maxepoch16
+[75.59461975097656], [74.7], instructional  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch8
+[76.78386688232422], [73.1], marc yong  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch16
+[75.3877944946289], [74.4], cant 👉 instructional )(  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch16
+[76.57704162597656], [73.2], instructional trick  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch16
+[73.0610122680664], [76.6], iconic  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch8
+[77.24922180175781], [72.4], katelyn davis doing "#  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch16
+[74.6122055053711], [75.0], stingly  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt1_maxepoch16
+[75.23268127441406], [74.0], legendary  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt1_maxepoch16
+[76.52533721923828], [72.7], casually tutorial howto teacher  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch16
+[73.26783752441406], [75.6], even jt finnish ?"  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch16
+[73.6297836303711], [75.2], kristin chr cruising  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt3_maxepoch8
+[71.82006072998047], [76.9], heartwarming  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch16
+[72.80248260498047], [75.9], does physics  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt2_maxepoch8
+[75.4912109375], [73.2], instructional  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch16
+[72.13030242919922], [76.5], politician competing  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt2_maxepoch8
+[73.99172973632812], [74.4], enthusiasts learned practicing  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt3_maxepoch8
+[74.40538024902344], [73.8], paced  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch16
+[74.19855499267578], [74.0], ." rogerfederer  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch16
+[72.80248260498047], [75.2], phakhan encourages  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch16
+[73.88831329345703], [73.8], adam kindavies doing  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt4_maxepoch8
+[72.59565734863281], [74.9], analyzing  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt1_maxepoch8
+[73.1644287109375], [74.3], rence talaga hooo al  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch8
+[74.71561431884766], [72.7], maktheoreclassical he  
+data/fomo/output/CoPrompt_m0.9_wstd0.001_nctxt4_maxepoch8
+[73.57807922363281], [73.6], rence marcelo tearing  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt3_maxepoch8
+[72.95760345458984], [74.2], keyan mmon  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt2_maxepoch8
+[73.11271667480469], [73.9], jh teaches messing  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt3_maxepoch8
+[74.92243957519531], [72.0], tutorial teaches  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt2_maxepoch16
+[74.5087890625], [71.9], osh instructional << can  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt4_maxepoch8
+[71.40641021728516], [74.6], kdrama  
+data/fomo/output/CoPrompt_m0.0_wstd0.012_nctxt1_maxepoch8
+[72.49224090576172], [72.5], ho  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt1_maxepoch8
+[72.6473617553711], [72.3], gg yeon determine al  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt4_maxepoch16
+[71.61323547363281], [72.5], jacktat beginner watching  
+data/fomo/output/CoPrompt_m0.0_wstd0.001_nctxt4_maxepoch8
+[71.61323547363281], [72.1], dustin solomon  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt2_maxepoch8
+[73.1644287109375], [70.3], shadowhunters  
+data/fomo/output/CoPrompt_m0.0_wstd0.08_nctxt1_maxepoch8
+[70.88935089111328], [71.8], goro lopez teaches  
+data/fomo/output/CoPrompt_m0.9_wstd0.08_nctxt3_maxepoch8
+[69.49327850341797], [70.3], can artestreep olympic  
+data/fomo/output/CoPrompt_m0.9_wstd0.012_nctxt4_maxepoch8
