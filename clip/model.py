@@ -1,3 +1,4 @@
+import os
 from collections import OrderedDict
 from typing import Tuple, Union
 
@@ -629,8 +630,9 @@ class VisionTransformer_MaPLe(nn.Module):
         # After positional embeddings, we will attach prompts with the model, remember only those
         # are trainable parameters here in whole image encoder.
         if self.VPT_shallow:
-            visual_ctx = shared_ctx.expand(x.shape[0], -1, -1).half()
-            x = torch.cat([x, visual_ctx], dim=1)
+            if os.getenv("NOSHARED") is None:
+                visual_ctx = shared_ctx.expand(x.shape[0], -1, -1).half()
+                x = torch.cat([x, visual_ctx], dim=1)
         else:
             assert self.prompt_till_layer_visual == 0
 

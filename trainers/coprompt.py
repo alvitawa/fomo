@@ -194,33 +194,22 @@ class GetToggle(autograd.Function):
         out = torch.zeros_like(scores)
 
         order = torch.argsort(scores, dim=-1, descending=True)
-        # order_scores = scores.gather(1, order)
-        #
-        # best = order[:, 0]
-        # while True:
-        #     decoded = clip._tokenizer.decode(best.cpu().numpy())
-        #     print('>>>>', best)
-        #     re_encoded = clip._tokenizer.encode(decoded)
-        #     print('<<<<', re_encoded)
-        #     if not (re_encoded == best.cpu().numpy().tolist()):
-        #         re_decoded = clip._tokenizer.decode(re_encoded)
-        #         print('\n\n\n\n\n\n\nRe-encoding failed: {} vs {}'.format(re_encoded, re_decoded))
-        #         # next_scores = scores.gather(1, order[:, 1])
-        #         best = order[:, 1]
-        #
-        #     break
 
         bos, eos = [clip._tokenizer.encoder['<|startoftext|>'], clip._tokenizer.encoder['<|endoftext|>']]
 
         ranks = torch.zeros_like(order[:, 0])
         while True:
             best = order[torch.arange(order.shape[0]), ranks]
+            if os.getenv('NOFILTER') is not None:
+                break
             # no eos or bos
             for i, t in enumerate(best):
                 if t.item() in [bos, eos]:
                     ranks[i] += 1
                     break
             else:
+                if os.getenv('NOSELECT') is not None:
+                    break
                 # break
                 decoded = clip._tokenizer.decode(best.cpu().numpy())
                 re_encoded = clip._tokenizer.encode(decoded)
@@ -272,7 +261,6 @@ class EmbeddingsToggler(nn.Module):
     def forward(self):
         toggle = GetToggle.apply(self.scores)  # (n, num_embeddings)
         best = torch.argmax(toggle, dim=-1).detach()
-
 
         return toggle @ self.embeddings.weight.type(self.scores.dtype), best
 
@@ -341,6 +329,39 @@ class MultiModalPromptLearner(nn.Module):
         std = os.getenv('WEIGHT_STD', 0.004)
         self.emb_toggler.scores.data.normal_(mean, float(std))
 
+        # if os.getenv('PROMPT') is not None:
+        #     prompt = clip._tokenizer.encode(os.getenv('PROMPT'))
+        #     # prompt = prompt[1: 1 + n_ctx]
+        #     # with torch.no_grad():
+        #     #     embedding = clip_model.token_embedding(prompt).type(dtype)
+        #
+        #     bos, eos = [clip._tokenizer.encoder['<|startoftext|>'], clip._tokenizer.encoder['<|endoftext|>']]
+        #     print(len(prompt), bos, eos, prompt[0], prompt[-1], prompt)
+        #     decoded = clip._tokenizer.decode(prompt)
+        #     print('>>>', decoded,)
+        #     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        #     # self.fixed_embedding = embedding[0, 1: 1 + n_ctx, :].to(device)
+        #     # self.fixed_embedding.requires_grad = False
+        #
+        #     self.emb_toggler.scores.data.fill_(0)
+        #     print('>>>', prompt)
+        #     self.emb_toggler.scores.data[torch.arange(n_ctx), prompt] = 0.0035
+        #     self.emb_toggler.scores.requires_grad = False
+        #
+        #     ctx_, best = self.emb_toggler()
+        #     decoded = clip._tokenizer.decode(best.cpu().numpy())
+        #     odir = os.getenv('DIR')[1:] + '/clog.txt'
+        #     print('>>>', decoded, self.emb_toggler.scores[torch.arange(n_ctx), best],
+        #           self.emb_toggler.scores.min(), self.emb_toggler.scores.max())
+        #     print('>>>', decoded, '<<<<', file=open(odir, 'a'))
+        #     print(os.getenv('DIR'))
+        #     print('PROOOOOOMPT')
+        #
+        #     self.fixed_embedding = None
+        #     # raise NotImplementedError('Prompting')
+        # else:
+        #     self.fixed_embedding = None
+
         # print(prompt[0, 1 : 1 + n_ctx])
         # self.emb_toggler = EmbeddingsToggler(clip_model.token_embedding, n_ctx, k=1,
         #                                      init_indices=prompt[0, 1 : 1 + n_ctx],
@@ -351,6 +372,7 @@ class MultiModalPromptLearner(nn.Module):
         self.proj = nn.Linear(ctx_dim, 768)
         if dtype == torch.float16:
             self.proj.half()
+
 
         # These below parameters related to the shared prompts
         # Define the compound prompts for the deeper layers
@@ -442,14 +464,17 @@ class MultiModalPromptLearner(nn.Module):
               self.emb_toggler.scores.min(), self.emb_toggler.scores.max())
         print('>>>', decoded, '<<<<', file=open(odir, 'a'))
         print(os.getenv('DIR'))
+        print(self.proj.weight.shape)
         # re_encoded = clip._tokenizer.encode(decoded)
         # assert re_encoded == best.cpu().numpy().tolist(), \
         #     "Re-encoding failed: {} vs {}".format(re_encoded,
         #                                           best.cpu().numpy().tolist())
 
-        # assert ctx_.shape == self.ctx.shape, "Context shape mismatch: {} vs {}".format(
-        #     ctx_.shape, self.ctx.shape
-        # )
+
+        # if self.fixed_embedding is not None:
+        #     # print('Fixed embedding')
+        #     # print(ctx_.shape, self.fixed_embedding.shape)
+        #     ctx_ = self.fixed_embedding
 
         if ctx_.dim() == 2:
             ctx = ctx_.unsqueeze(0).expand(self.n_cls, -1, -1)
@@ -530,12 +555,12 @@ class CustomCLIP(nn.Module):
         )
 
         x_a = self.adapter_image(image_features)
-        image_features = (
+        image_features1 = (
                 self.image_adapter_m * x_a + (1 - self.image_adapter_m) * image_features
         )
 
         x_b = self.adapter_text(text_features)
-        text_features = (
+        text_features1 = (
                 self.text_adapter_m * x_b + (1 - self.text_adapter_m) * text_features
         )
 
@@ -662,7 +687,7 @@ class CoPrompt(TrainerX):
         for _, param in self.model.named_parameters():
             param.requires_grad_(False)
 
-        name_to_update = ["prompt_learner.emb_toggler.scores", "prompt_learner.proj", "adapter"]
+        name_to_update = ["prompt_learner.emb_toggler.scores", "prompt_learner.proj"]#, "adapter"]
         for name, param in self.model.named_parameters():
             for n2u in name_to_update:
                 if n2u in name:
